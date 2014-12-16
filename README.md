@@ -3,7 +3,7 @@ Personal Bash Files
 
 ###Main method
 
-**Ecommerce**
+***Ecommerce***
 
 * commit_changes( message )
  * publish extensions on sequence:
