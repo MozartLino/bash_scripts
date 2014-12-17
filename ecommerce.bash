@@ -15,10 +15,14 @@ alias swl='cd ~/Desenvolvimento/spree_waiting_list/'
 
 commit_all(){
 	
+	echo ' >> init commit all changes'
+
 	update_pagseguro $1
 	update_kimi $1
 	update_core $1
 	update_ecommerce $1
+
+	echo ' << commit finish with success'
 
 }
 
